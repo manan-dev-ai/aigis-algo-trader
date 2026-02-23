@@ -1,0 +1,17 @@
+system:
+  name: "A.I.G.I.S."
+  version: "1.0.0-FastStack"
+  mode: "PAPER" # Options: PAPER, LIVE
+
+risk_management:
+  capital: 10000.0
+  max_daily_loss: 500.0  # Stop if we lose ₹500
+  max_trades_per_day: 100
+  stop_loss_pct: 0.02    # 2% Trailing Stop
+
+strategy:
+  sniper:
+    enabled: true
+    watchlist: ["TATASTEEL", "RELIANCE", "INFY", "ADANIENT"]
+    buy_rsi_threshold: 30
+    sell_rsi_threshold: 70

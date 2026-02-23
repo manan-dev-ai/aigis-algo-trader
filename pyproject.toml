@@ -1,0 +1,15 @@
+[project]
+name = "aigis-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.4.4",
+    "fyers-apiv3>=3.1.10",
+    "orjson>=3.11.7",
+    "polars>=1.38.1",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "structlog>=25.5.0",
+]
