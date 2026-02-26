@@ -34,13 +34,13 @@ aigis-algo-trader/
 💻 Local Setup Instructions
 1. Clone the repository:
 
-Bash
+
 git clone [https://github.com/manan-dev-ai/aigis-algo-trader.git](https://github.com/manan-dev-ai/aigis-algo-trader.git)
 cd aigis-algo-trader
 2. Install dependencies:
 This project uses uv for extremely fast dependency management. If you don't have it installed, run pip install uv first.
 
-Bash
+
 uv sync
 3. Set up Environment Variables & Configuration:
 
@@ -50,7 +50,7 @@ Review and update config.yaml to set your risk parameters, active strategies, an
 
 4. Run the Trading Engine:
 
-Bash
+
 uv run main.py
 ⚠️ Disclaimer & Security
 Algorithmic trading carries significant financial risk. This software is provided for educational and research purposes. Never deploy capital you cannot afford to lose.
@@ -58,3 +58,4 @@ Ensure that your .env file containing live API keys is added to your .gitignore 
 
 🤝 Contributing
 Contributions, issue reports, and pull requests to optimize execution speed or add new strategy templates are welcome!
+
